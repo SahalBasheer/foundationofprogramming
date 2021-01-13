@@ -1,0 +1,15 @@
+def vowel_remover(a):
+ x =["a","e","i","o","u","A","E","I","O","U"]
+ y =""
+ for i in a:
+  if i not in x:
+    y +=i
+
+
+
+ return y
+
+
+a = input("Enter Ur Name ")
+z = vowel_remover(a)  
+print(f"Ur Name Without Vowel is {z}")
